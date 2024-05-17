@@ -1,0 +1,61 @@
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #fff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  margin:0;
+  box-sizing: border-box;
+  font-family: Poppins, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1;
+  font-weight: 600;
+  font-style: italic;
+  color:white;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+
+#app {
+  margin: 0;
+  width: 100%;
+}
+
+.blue{
+  background-color: #001AFF;
+}
+.green{
+  background-color: #00FF38;
+}
+.yellow{
+  background-color: #FAFF00;
+}
+.red{
+  background-color: #FF0000;
+}
+.black{
+  background-color: #000000;
+}
+.white{
+  background-color: #ffffff;
+  border: #787878 solid 1px;
+}
+.gray {
+  background-color: #cccccc;
+}
+
+button {
+  cursor: pointer;
+
+}
